@@ -1,6 +1,9 @@
-# QuizSpark
+# QuizSpark: Build an AI-Powered Quiz App with Gemini and Firebase
 
 QuizSpark is an Android app that lets users generate AI-powered quizzes on any topic, play through the questions, and submit their scores to a shared leaderboard. It is built entirely with Jetpack Compose and integrates Firebase for AI generation and persistence.
+
+This app was built for the #buildWithAI series workshop, and you can find the step-by-step tutorial here:
+👉 [Codelab: Build an AI-Powered Quiz App with Gemini and Firebase](https://cmota.github.io/BuildWithAI/)
 
 ## Features
 
@@ -57,7 +60,7 @@ app/
 ## Firebase Setup Notes
 
 - **Gemini access**: The Firebase project must have the Generative AI (Gemini) API enabled. Update billing if required.
-- **Firestore rules**: During development you can use permissive rules, but for production restrict writes to authenticated users and validate score ranges.
+- **Firestore rules**: During development, you can use permissive rules, but for production, restrict writes to authenticated users and validate score ranges.
 - **AI quota**: `generateContent` requests count against your project's quota—monitor usage if you demo frequently.
 
 ## License
