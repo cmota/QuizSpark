@@ -6,5 +6,7 @@ private const val TAG = "LeaderboardViewModel"
 
 class LeaderboardViewModel : ViewModel() {
 
+  fun savePoints(username: String, correct: Int) {
 
+  }
 }
